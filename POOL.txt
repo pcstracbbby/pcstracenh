@@ -36,24 +36,3 @@ FTP Server|192.168.53.105
 Live Mgmt|192.168.4.105|N
 Mgmt Web|192.168.29.193|N
 Mgmt Fallback NC|172.24.71.63|N
-
-
-https://www.poftut.com/how-to-install-and-access-tightvnc-remote-desktop-in-linux/
-https://www.tecmint.com/install-and-configure-vnc-server-in-centos-7/
-https://linuxize.com/post/how-to-install-and-configure-vnc-on-centos-7/
-
-[root@njunqvpncmgt01]</root>vncserver
-
-You will require a password to access your desktops.
-
-Password:PcsTrac!
-Verify:
-
-New 'njunqvpncmgt01.bedbath.com:1 (root)' desktop is njunqvpncmgt01.bedbath.com:1
-
-Creating default startup script /root/.vnc/xstartup
-Starting applications specified in /root/.vnc/xstartup
-Log file is /root/.vnc/njunqvpncmgt01.bedbath.com:1.log
-
-[root@njunqvpncmgt01]</root>
-
