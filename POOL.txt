@@ -1,0 +1,59 @@
+2607 Atlanta|172.29.7.220|Y
+2684 Boston|172.29.84.220|Y
+2668 Buffalo|172.29.68.220|Y
+2625 Chicago|172.29.25.220|Y
+2662 Charlotte|172.29.62.220|Y
+2682 Denver|172.29.82.220|Y
+2675 Cincinnati|172.29.75.220|Y
+2611 New York|172.17.0.190|Y
+2659 Houston|172.29.59.220|Y
+2660 Jacksonville|172.29.60.220|Y
+2646 Kansas City|172.29.46.220|Y
+2678 New York|172.29.78.220|Y
+2679 Dallas|172.28.64.90|Y
+2670 Memphis|172.29.70.220|Y
+2612 Los Angeles|172.29.12.220|Y
+#2671 Boston|172.29.71.220|Y
+2664 Baltimore|172.29.64.220|Y
+2654 Bethpage|172.29.54.220|Y
+2681 Ontario CA|172.29.81.220|Y
+2651 Orlando|172.29.51.220|Y
+2666 Philadelphia|172.29.66.220|Y
+2642 Phoenix|172.29.42.220|Y
+2683 Springfield|172.29.83.220|Y
+2680 San Francisco|172.29.80.220|Y
+2687 Seattle|172.29.87.220|Y
+2674 Cleveland|172.29.74.220|Y
+2647 Salt Lake City|172.29.47.220|Y
+#2629 Westfield|172.29.29.220|Y
+2673 Miami|172.29.73.220|Y
+2685 Livonia|172.29.86.220|Y
+#
+Dev FTP|192.168.14.199|N
+Dev Mgmt|192.168.14.198|N
+Dev Pool|192.168.14.197|N
+FTP Server|192.168.53.105
+Live Mgmt|192.168.4.105|N
+Mgmt Web|192.168.29.193|N
+Mgmt Fallback NC|172.24.71.63|N
+
+
+https://www.poftut.com/how-to-install-and-access-tightvnc-remote-desktop-in-linux/
+https://www.tecmint.com/install-and-configure-vnc-server-in-centos-7/
+https://linuxize.com/post/how-to-install-and-configure-vnc-on-centos-7/
+
+[root@njunqvpncmgt01]</root>vncserver
+
+You will require a password to access your desktops.
+
+Password:PcsTrac!
+Verify:
+
+New 'njunqvpncmgt01.bedbath.com:1 (root)' desktop is njunqvpncmgt01.bedbath.com:1
+
+Creating default startup script /root/.vnc/xstartup
+Starting applications specified in /root/.vnc/xstartup
+Log file is /root/.vnc/njunqvpncmgt01.bedbath.com:1.log
+
+[root@njunqvpncmgt01]</root>
+
